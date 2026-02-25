@@ -1,13 +1,14 @@
 cask "fotos" do
-  version :latest
-  sha256 :no_check
+  version "0.3.0"
 
   on_linux do
-    url "https://github.com/charly-vibes/fotos/releases/latest/download/fotos_#{version}_amd64.AppImage"
+    url "https://github.com/charly-vibes/fotos/releases/download/v0.3.0/fotos_0.3.0_amd64.AppImage"
+    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
   end
 
   on_macos do
-    url "https://github.com/charly-vibes/fotos/releases/latest/download/fotos_#{version}_x64.dmg"
+    url "https://github.com/charly-vibes/fotos/releases/download/v0.3.0/fotos_0.3.0_x64.dmg"
+    sha256 :no_check
   end
 
   name "Fotos"
