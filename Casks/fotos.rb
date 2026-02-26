@@ -3,7 +3,7 @@ cask "fotos" do
 
   on_linux do
     url "https://github.com/charly-vibes/fotos/releases/download/v0.3.0/fotos_0.3.0_amd64.AppImage"
-    sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    sha256 "998bd03506604244b55400c3634a34567a132979b3a81105b167d72c1590b718"
   end
 
   on_macos do
@@ -16,7 +16,7 @@ cask "fotos" do
   homepage "https://github.com/charly-vibes/fotos"
 
   on_linux do
-    binary "fotos_#{version}_amd64.AppImage", target: "fotos"
+    binary "fotos_\#{version}_amd64.AppImage", target: "fotos"
   end
 
   on_macos do
