@@ -37,7 +37,7 @@ brew update && brew upgrade
 
 ---
 
-Formulas and casks are auto-updated on each release via [GoReleaser](https://goreleaser.com) and GitHub Actions.
+Formulas and casks are auto-updated on each release via GitHub Actions.
 
 
 ---
