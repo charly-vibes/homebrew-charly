@@ -3,7 +3,7 @@ cask "fotos" do
 
   on_linux do
     url "https://github.com/charly-vibes/fotos/releases/download/v0.3.0/fotos_0.3.0_amd64.AppImage"
-    sha256 "998bd03506604244b55400c3634a34567a132979b3a81105b167d72c1590b718"
+    sha256 "b0cd284e0442fb98250a6ddf387ca6d0d6b9dfbd45d4d13c4d08417d2ed926fe"
   end
 
   on_macos do
@@ -28,6 +28,6 @@ cask "fotos" do
     "~/.local/share/fotos",
     "~/Library/Application Support/fotos",
     "~/Library/Caches/fotos",
-    "~/Library/Preferences/io.github.charly.fotos.plist",
+    "~/Library/Preferences/io.github.charly-vibes.fotos.plist",
   ]
 end
