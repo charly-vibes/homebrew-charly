@@ -1,0 +1,15 @@
+pre-commit:
+  commands:
+    ruby-syntax:
+      run: |
+        for f in Formula/*.rb Casks/*.rb; do
+          ruby -c "$f"
+        done
+
+pre-push:
+  commands:
+    ruby-syntax:
+      run: |
+        for f in Formula/*.rb Casks/*.rb; do
+          ruby -c "$f"
+        done
