@@ -12,17 +12,17 @@ brew tap charly-vibes/charly
 
 | Name | Kind | Description |
 |------|------|-------------|
-| `wai` | formula | Workflow manager for AI-driven development |
-| `fabbro` | formula | Local-first code review annotation tool |
+| `wai` | formula | CLI workflow manager for AI-driven development |
 | `fotos-mcp` | formula | MCP server for the Fotos screenshot tool |
 | `fotos` | cask | AI-powered screenshot capture and analysis app |
+
+> **fabbro** formula is pending its first tagged release. Install from source in the meantime: [github.com/charly-vibes/fabbro](https://github.com/charly-vibes/fabbro)
 
 ## Install
 
 ```bash
 # CLI tools (formula)
 brew install wai
-brew install fabbro
 brew install fotos-mcp
 
 # Desktop app (cask)
