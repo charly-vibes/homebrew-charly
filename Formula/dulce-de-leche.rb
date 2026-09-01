@@ -4,30 +4,30 @@
 class DulceDeLeche < Formula
   desc "Orchestrator for the charly-vibes tool ecosystem"
   homepage "https://github.com/charly-vibes/dulce-de-leche"
-  version "0.1.0"
+  version "0.3.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.1.0/ddl_0.1.0_darwin_arm64.tar.gz"
-      sha256 "284b59f682eca1780bf0c99253c1cc33f8d9d3000f7bda49d1a226cfe8d01652"
+      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.3.0/ddl_0.3.0_darwin_arm64.tar.gz"
+      sha256 "9b9f06813616f64bb3266937463f17fda3ac396c69b1bcaa6bab1b2d69e0bab7"
     end
     on_intel do
-      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.1.0/ddl_0.1.0_darwin_amd64.tar.gz"
-      sha256 "ec8856e4acad1dd26bbfbac3dd173b83ea4fd3bae798fe07ceb9656dac25be57"
+      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.3.0/ddl_0.3.0_darwin_amd64.tar.gz"
+      sha256 "88503a1944471f7dbfd57bae1c6819802c4892c22eb1648b9ce5299bb56bfc6f"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.1.0/ddl_0.1.0_linux_arm64.tar.gz"
-        sha256 "93c1c7bd908d18f92c9670b4731da45a04de4e84307982107ce11e59400dbc0d"
+        url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.3.0/ddl_0.3.0_linux_arm64.tar.gz"
+        sha256 "b62565db2fb0a74ceecaa37c0b8945ffed3d59550f958f7a64b627d9e87f57d8"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.1.0/ddl_0.1.0_linux_amd64.tar.gz"
-      sha256 "3d7a1980393b7875527f1b218274bbf440eb06e21f1615ec589f2da289e987d4"
+      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.3.0/ddl_0.3.0_linux_amd64.tar.gz"
+      sha256 "a814df1d413b87fc624b0c530bba51ae316e023491500d42adc8eb176b8560fe"
     end
   end
 
@@ -36,6 +36,6 @@ class DulceDeLeche < Formula
   end
 
   test do
-    system "\#{bin}/ddl", "--version"
+    system "#{bin}/ddl", "--version"
   end
 end
