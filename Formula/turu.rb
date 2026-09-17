@@ -4,30 +4,30 @@
 class Turu < Formula
   desc "Deterministic knowledge workspace management for AI agents"
   homepage "https://github.com/charly-vibes/whisper"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/whisper/releases/download/v0.4.0/turu_{version}_darwin_arm64.tar.gz"
-      sha256 "036df0a162b2cbc4495ccfa7780db4e2da30c2cb1de10d31ede29c6c41e282c7"
+      url "https://github.com/charly-vibes/whisper/releases/download/v0.5.0/turu_{version}_darwin_arm64.tar.gz"
+      sha256 "a76c203c7fbad2c2e1b761edbdbb10c0bbdc0a20757fa7f41b877c5b003b64fd"
     end
     on_intel do
-      url "https://github.com/charly-vibes/whisper/releases/download/v0.4.0/turu_{version}_darwin_amd64.tar.gz"
-      sha256 "739108b5abddc92d2a62602ee1077d1a3020ae101c3fee99630440964f85e7f1"
+      url "https://github.com/charly-vibes/whisper/releases/download/v0.5.0/turu_{version}_darwin_amd64.tar.gz"
+      sha256 "7e3a086f4105fa9207f09fdf22c3a593ab3808b67cc114455f26ad020cc95276"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/whisper/releases/download/v0.4.0/turu_{version}_linux_arm64.tar.gz"
-        sha256 "5fa04c9b39f23e9b81a1127dcdbf4cdd78cf5690676e4c95aaa1530758b7ddfd"
+        url "https://github.com/charly-vibes/whisper/releases/download/v0.5.0/turu_{version}_linux_arm64.tar.gz"
+        sha256 "9b354e66be1bd853850f7f7e96524cf4967c148ccdaee2eb750287d46f27346b"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/whisper/releases/download/v0.4.0/turu_{version}_linux_amd64.tar.gz"
-      sha256 "f7d73e281f8407967b09b68cb98903d07a7f2e9db6d6ce69a7a57e6ef7437432"
+      url "https://github.com/charly-vibes/whisper/releases/download/v0.5.0/turu_{version}_linux_amd64.tar.gz"
+      sha256 "a5373d67a001b60322d8003382f4a96e310bc5748644423c9a816fb294eef614"
     end
   end
 
