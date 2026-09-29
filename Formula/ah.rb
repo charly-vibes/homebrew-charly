@@ -4,30 +4,30 @@
 class Ah < Formula
   desc "Behavioral specification testing"
   homepage "https://github.com/charly-vibes/espectacular"
-  version "0.5.0"
+  version "0.6.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/espectacular/releases/download/v0.5.0/ah_0.5.0_darwin_arm64.tar.gz"
-      sha256 "f19dbb66fab03cba9001ea4346f05c01a934e4a9d823876a5e70f75ca67f440d"
+      url "https://github.com/charly-vibes/espectacular/releases/download/v0.6.0/ah_0.6.0_darwin_arm64.tar.gz"
+      sha256 "0cef915c0ce5c2ab71107ac62a5ab846f8ba41a62b5f62487ff7062b862d4d80"
     end
     on_intel do
-      url "https://github.com/charly-vibes/espectacular/releases/download/v0.5.0/ah_0.5.0_darwin_amd64.tar.gz"
-      sha256 "2ff7367621454c86747425bdd01afa2084469835b35e01e7c5cbf047593b1abb"
+      url "https://github.com/charly-vibes/espectacular/releases/download/v0.6.0/ah_0.6.0_darwin_amd64.tar.gz"
+      sha256 "a47103447a975922c3cf7201f79645ca4d960adea15efa80af2b294a21b5d9f5"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/espectacular/releases/download/v0.5.0/ah_0.5.0_linux_arm64.tar.gz"
-        sha256 "7899f3b3c61630f12932cf10c135808692153bd1326c959849f0018e83a4c76c"
+        url "https://github.com/charly-vibes/espectacular/releases/download/v0.6.0/ah_0.6.0_linux_arm64.tar.gz"
+        sha256 "f2a3ae3b652614a64dfa805f163128984c75a016ad466ba5137504b6b85db185"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/espectacular/releases/download/v0.5.0/ah_0.5.0_linux_amd64.tar.gz"
-      sha256 "2713e8f353bf5c7b20125a429ecf572a92d66df4a770ac5a96675b008c146b2e"
+      url "https://github.com/charly-vibes/espectacular/releases/download/v0.6.0/ah_0.6.0_linux_amd64.tar.gz"
+      sha256 "cb5db74c37526ddaab8b181d19bea1bef113fc5dbe6484d4153ba2bb2397f918"
     end
   end
 
