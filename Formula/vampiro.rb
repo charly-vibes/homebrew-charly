@@ -4,30 +4,30 @@
 class Vampiro < Formula
   desc "Program analysis tool for verifying compliance with laws and policies"
   homepage "https://github.com/charly-vibes/vampiro"
-  version "0.4.0"
+  version "0.5.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/vampiro/releases/download/v0.4.0/vampiro_0.4.0_darwin_arm64.tar.gz"
-      sha256 "14cb78d9e8ffd292aff51e1926059fb84bd59b1bbbcc96cdbbd7cc8e292058e1"
+      url "https://github.com/charly-vibes/vampiro/releases/download/v0.5.0/vampiro_0.5.0_darwin_arm64.tar.gz"
+      sha256 "402c6f82911eea2c6d065e8571069bcc4a6a3ead831b24b3efb50cc09d64ee92"
     end
     on_intel do
-      url "https://github.com/charly-vibes/vampiro/releases/download/v0.4.0/vampiro_0.4.0_darwin_amd64.tar.gz"
-      sha256 "5f5372705279e8a2c04eac817e4c8d0cc5b64ef6a536489856255611e044c599"
+      url "https://github.com/charly-vibes/vampiro/releases/download/v0.5.0/vampiro_0.5.0_darwin_amd64.tar.gz"
+      sha256 "1413a839d50f1a95fc4dcd43e7d39a6fd0d693303c86da6040486b3935aa1064"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/vampiro/releases/download/v0.4.0/vampiro_0.4.0_linux_arm64.tar.gz"
-        sha256 "a8b9902ff299f0c84907c93a775c2a3672383ba00530e3447287ca90113b4411"
+        url "https://github.com/charly-vibes/vampiro/releases/download/v0.5.0/vampiro_0.5.0_linux_arm64.tar.gz"
+        sha256 "b8696eaa75d182771b7f22cf8cbdbc930ee4e0cd639d22ba7e473aacd0a64e70"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/vampiro/releases/download/v0.4.0/vampiro_0.4.0_linux_amd64.tar.gz"
-      sha256 "ccbb9801ca69443859df5e7545c2cdbc42448151a9aef8e5a0d50fcc156824a3"
+      url "https://github.com/charly-vibes/vampiro/releases/download/v0.5.0/vampiro_0.5.0_linux_amd64.tar.gz"
+      sha256 "a1e84089ed49143df7048dbedc3b787f96fb5cda380dc440ccde8d19623d52b6"
     end
   end
 
