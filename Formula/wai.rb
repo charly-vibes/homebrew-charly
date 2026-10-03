@@ -4,30 +4,30 @@
 class Wai < Formula
   desc "Workflow manager for AI-driven development"
   homepage "https://github.com/charly-vibes/wai"
-  version "2026.9.28"
+  version "2026.10.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/wai/releases/download/v2026.9.28/wai_2026.9.28_darwin_arm64.tar.gz"
-      sha256 "37ae359698a219507ca01542d9567d6f417441fa3a84b7188a04b796b6c7e5c0"
+      url "https://github.com/charly-vibes/wai/releases/download/v2026.10.3/wai_2026.10.3_darwin_arm64.tar.gz"
+      sha256 "7ce33637219f0a28918efd74df53ea32d5bbd7aeeb83e4eaf2fcfe3db8a15336"
     end
     on_intel do
-      url "https://github.com/charly-vibes/wai/releases/download/v2026.9.28/wai_2026.9.28_darwin_amd64.tar.gz"
-      sha256 "c0b3e251a5ff24399f2a5b92c8b4554ada03cb05bb87d2d20479293697c1364d"
+      url "https://github.com/charly-vibes/wai/releases/download/v2026.10.3/wai_2026.10.3_darwin_amd64.tar.gz"
+      sha256 "ca354a4d95ed8504cfc81d47305135761a1618c92f2e8700134f5ead87f9272b"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/wai/releases/download/v2026.9.28/wai_2026.9.28_linux_arm64.tar.gz"
-        sha256 "e5c70aaae145001b1b64e7efe8f92550fa401d6bd7a8225a35f2c0755a44589e"
+        url "https://github.com/charly-vibes/wai/releases/download/v2026.10.3/wai_2026.10.3_linux_arm64.tar.gz"
+        sha256 "9374ff78ca3955e1e74293c157bb53016b9d41abb2f89d7130433bcd89955400"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/wai/releases/download/v2026.9.28/wai_2026.9.28_linux_amd64.tar.gz"
-      sha256 "ed64b55c60f6383487cd4d5cf61c2b1c95165da8ffde611a89686d89ddb62aad"
+      url "https://github.com/charly-vibes/wai/releases/download/v2026.10.3/wai_2026.10.3_linux_amd64.tar.gz"
+      sha256 "be0d9ff038eb51d63076cae272e01f5103df83fed603b52c85c5e26b14078b96"
     end
   end
 
