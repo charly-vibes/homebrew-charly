@@ -4,30 +4,30 @@
 class Testaruda < Formula
   desc "Language-agnostic test selection engine"
   homepage "https://github.com/charly-vibes/testaruda"
-  version "0.5.2"
+  version "0.5.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.2/testaruda_0.5.2_darwin_arm64.tar.gz"
-      sha256 "e9cb7d8220718545d8654d7899be7b39d4dad076d4a836ba7bb44dd647c9c6db"
+      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.3/testaruda_0.5.3_darwin_arm64.tar.gz"
+      sha256 "661d8a67e3cff4f9f7ec8e1d7cf62b08e101502c8c2736e1124347b38da0598e"
     end
     on_intel do
-      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.2/testaruda_0.5.2_darwin_amd64.tar.gz"
-      sha256 "1b95ab1ad058f5c6c1cb070be5dec6d155fdaf50ab7ad6d52cc5b31e86def208"
+      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.3/testaruda_0.5.3_darwin_amd64.tar.gz"
+      sha256 "d9fd07b5c25bfba89c32cc27d9ea655e28200b6d56caa9386b1bab5b2b80fbb1"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.2/testaruda_0.5.2_linux_arm64.tar.gz"
-        sha256 "99fa3374691a45fde3c03165d83b8b5dadd6782083593220a0b10a7ac0139c72"
+        url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.3/testaruda_0.5.3_linux_arm64.tar.gz"
+        sha256 "ec3f0afda488d52b4df0249d1f0b31bafd4684d99acb406ad9820822b81607eb"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.2/testaruda_0.5.2_linux_amd64.tar.gz"
-      sha256 "3d6a383c23b3a26c11956f60180c2fad1048982d3d79b1a967786993e0304404"
+      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.3/testaruda_0.5.3_linux_amd64.tar.gz"
+      sha256 "14a1ef6127f3025c3b818d3faaa92a2f386b0f44e4ebd694f8520b7c817fafaa"
     end
   end
 
@@ -35,6 +35,8 @@ class Testaruda < Formula
     bin.install "testaruda"
     bin.install "testaruda-adapter-rust"
     bin.install "testaruda-adapter-python"
+    bin.install "testaruda-adapter-typescript"
+    bin.install "testaruda-adapter-clojure"
   end
 
   test do
