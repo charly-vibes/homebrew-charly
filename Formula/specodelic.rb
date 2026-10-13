@@ -4,30 +4,30 @@
 class Specodelic < Formula
   desc "Markdown specification format (Intent / Constraints / Model / Properties) and the spk CLI"
   homepage "https://github.com/charly-vibes/specodelic"
-  version "0.9.0"
+  version "0.10.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.9.0/specodelic_0.9.0_darwin_arm64.tar.gz"
-      sha256 "ceca441577091b86db8c3e6968f812f6bcd3c8cab1fc24878f4e4bc94c682b90"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.10.0/specodelic_0.10.0_darwin_arm64.tar.gz"
+      sha256 "bdb4b8df9aaf694c34485fac5d34b5d039353e185f1a03468d74e1a0405cc9b9"
     end
     on_intel do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.9.0/specodelic_0.9.0_darwin_amd64.tar.gz"
-      sha256 "c9d91eaa46dd0335d9d4ea89482bb7c77c13293f2e4ea978122c60a60f9d14f4"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.10.0/specodelic_0.10.0_darwin_amd64.tar.gz"
+      sha256 "1331834a86f6efc4ca84a80db8b89e3a08b8a4a4d978bcb9f2046c585a7e1263"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/specodelic/releases/download/v0.9.0/specodelic_0.9.0_linux_arm64.tar.gz"
-        sha256 "7bc2d25b5dba947d8d500968a261d8634caeb69508dcbf2ab077e28b9e25f85a"
+        url "https://github.com/charly-vibes/specodelic/releases/download/v0.10.0/specodelic_0.10.0_linux_arm64.tar.gz"
+        sha256 "2e5d522b1dfa8bb1adcf50a1812f0ec7ac888ba9b5cfce95c7948276a7c3eb81"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.9.0/specodelic_0.9.0_linux_amd64.tar.gz"
-      sha256 "5e4f73100b18483be17fad190d85f7b61d0b039ece57fc95083b6dcff144f93a"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.10.0/specodelic_0.10.0_linux_amd64.tar.gz"
+      sha256 "969e4de79a937da77e58d23cff3835888a469192e881bcefe2d12ef53d0b8e9a"
     end
   end
 
