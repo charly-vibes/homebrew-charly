@@ -4,30 +4,30 @@
 class Testaruda < Formula
   desc "Language-agnostic test selection engine"
   homepage "https://github.com/charly-vibes/testaruda"
-  version "0.5.5"
+  version "0.5.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.5/testaruda_0.5.5_darwin_arm64.tar.gz"
-      sha256 "a3d9eadcbe8afd81c26aa2ad4231014c328178eba1e3a9be5b410ad9a398e142"
+      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.6/testaruda_0.5.6_darwin_arm64.tar.gz"
+      sha256 "9724f8eed2229d72adf6cc44fa8a513363b453b7e5d7557893df88fd51d85555"
     end
     on_intel do
-      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.5/testaruda_0.5.5_darwin_amd64.tar.gz"
-      sha256 "565ffcab67e13aae19b8aeb295c36f108d4ca04e23503be6a26e2fdf7f633c61"
+      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.6/testaruda_0.5.6_darwin_amd64.tar.gz"
+      sha256 "55f2dce74469765df5b37abecf47aa3302850f63e41f975f1782e84bb11b3f97"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.5/testaruda_0.5.5_linux_arm64.tar.gz"
-        sha256 "860dde486f197e4f44206bd5fbc7b32c511b2157d5640e2c296dd3df713910fa"
+        url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.6/testaruda_0.5.6_linux_arm64.tar.gz"
+        sha256 "fb0b62b81e26f200bf67b65dd152573c17a83bb274a5e5efb5e477b9379d212b"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.5/testaruda_0.5.5_linux_amd64.tar.gz"
-      sha256 "a5c220732f07bc91bcc2cde65fb404d337eff702749f6ffe7c0d2633c285f8c6"
+      url "https://github.com/charly-vibes/testaruda/releases/download/v0.5.6/testaruda_0.5.6_linux_amd64.tar.gz"
+      sha256 "3e54a7a6a6dedb54b84ef0638480fa5a4c88eaf9cb973d235ed4274acad64bc2"
     end
   end
 
