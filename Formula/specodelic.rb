@@ -4,30 +4,30 @@
 class Specodelic < Formula
   desc "Markdown specification format (Intent / Constraints / Model / Properties) and the spk CLI"
   homepage "https://github.com/charly-vibes/specodelic"
-  version "0.11.0"
+  version "0.12.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.11.0/specodelic_0.11.0_darwin_arm64.tar.gz"
-      sha256 "e4abde60f6feb3e99ae09987c443c91112047fa168f5c7dbef0c11f2ee536494"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.12.0/specodelic_0.12.0_darwin_arm64.tar.gz"
+      sha256 "0a4f86c93846c24a76a79ec6cd4c246df9a94b51babb0e0377231d8e4b7a0fb0"
     end
     on_intel do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.11.0/specodelic_0.11.0_darwin_amd64.tar.gz"
-      sha256 "91c4a19f89f28c2df0e5781099d67896b61f7079a48899fc8c7d86871f5fa956"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.12.0/specodelic_0.12.0_darwin_amd64.tar.gz"
+      sha256 "035523961270042b3d627cc71263feab97c9e078de73cc7c44fb5fa65880b5f8"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/specodelic/releases/download/v0.11.0/specodelic_0.11.0_linux_arm64.tar.gz"
-        sha256 "c35f4306d33a2ec49bc459b75807b57e1083cee2465a090cc3a0f752e687fe4b"
+        url "https://github.com/charly-vibes/specodelic/releases/download/v0.12.0/specodelic_0.12.0_linux_arm64.tar.gz"
+        sha256 "ecd7634f138e4bb060cf108faf50b4de31701086806cb41fe7d875627b4b0afa"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.11.0/specodelic_0.11.0_linux_amd64.tar.gz"
-      sha256 "cff9c3887845e1515ce028073b4c19e71dd2ea7a33c3d3bccb24174f0137d5f6"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.12.0/specodelic_0.12.0_linux_amd64.tar.gz"
+      sha256 "5d38312b2583cd85e7b70608a155b4384760bdf06dc081051a231d804f17dd03"
     end
   end
 
