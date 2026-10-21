@@ -10,11 +10,11 @@ class Vampiro < Formula
   on_macos do
     on_arm do
       url "https://github.com/charly-vibes/vampiro/releases/download/v0.6.1/vampiro_0.6.1_darwin_arm64.tar.gz"
-      sha256 "6571ff2bbe29c3a18431d0cea5d8800a109e5238da77810bb0ca8d6bbca0c896"
+      sha256 "2f943325e92bbc9d1a043622cb84ff4044cc19ac5fb6392a5716cd6623d61e27"
     end
     on_intel do
       url "https://github.com/charly-vibes/vampiro/releases/download/v0.6.1/vampiro_0.6.1_darwin_amd64.tar.gz"
-      sha256 "e277537945178048209fa227acfce753cf44ffa36b75733ceffae740e31e85c5"
+      sha256 "83770d1f46b209862d03e7a4236aa7fe13b5c67fd12a70fd6ed879433ef7a5c6"
     end
   end
 
@@ -22,12 +22,12 @@ class Vampiro < Formula
     on_arm do
       if Hardware::CPU.is_64_bit?
         url "https://github.com/charly-vibes/vampiro/releases/download/v0.6.1/vampiro_0.6.1_linux_arm64.tar.gz"
-        sha256 "bfb4ab3b23a92fecf0f41733c47e5325e577a4341f21dd8fa23e1ccc19b21028"
+        sha256 "2d93bcf51a1ba70aebdc7086baf75ae584f23fabb478f993bcba12e5f10d3f80"
       end
     end
     on_intel do
       url "https://github.com/charly-vibes/vampiro/releases/download/v0.6.1/vampiro_0.6.1_linux_amd64.tar.gz"
-      sha256 "494b80b4f1865ba957a508be031c1713fccf27024e981507e2e4dae895df1f06"
+      sha256 "1f36975ef3029d4d75184977a7adc1794f12937d0c7250d0f1befb8232a67a40"
     end
   end
 
