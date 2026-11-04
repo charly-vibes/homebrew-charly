@@ -4,30 +4,30 @@
 class Pretender < Formula
   desc "Structural code-quality checker for multiple languages"
   homepage "https://github.com/charly-vibes/pretender"
-  version "0.10.0"
+  version "0.11.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/pretender/releases/download/v0.10.0/pretender_0.10.0_darwin_arm64.tar.gz"
-      sha256 "2604cdc2423a4e9251a20206387774c2dc54499f0d009da121617e1c0a307dbc"
+      url "https://github.com/charly-vibes/pretender/releases/download/v0.11.0/pretender_0.11.0_darwin_arm64.tar.gz"
+      sha256 "de3736daf1183a42c184e0466cf5ca05a63d091ef62c107fe178e7f481acf7bb"
     end
     on_intel do
-      url "https://github.com/charly-vibes/pretender/releases/download/v0.10.0/pretender_0.10.0_darwin_amd64.tar.gz"
-      sha256 "ede01ffe7d38da5bf31ab1e0af3b838a56cda0bee444817af7c7b9a1be287d2c"
+      url "https://github.com/charly-vibes/pretender/releases/download/v0.11.0/pretender_0.11.0_darwin_amd64.tar.gz"
+      sha256 "bfa05389c212d256849a854db585f7cb6f4c39ba73485ed45e93517c56771867"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/pretender/releases/download/v0.10.0/pretender_0.10.0_linux_arm64.tar.gz"
-        sha256 "9698678c6dc53ad2751dd2ec06106b09fc39338593d745f173074bf43b346457"
+        url "https://github.com/charly-vibes/pretender/releases/download/v0.11.0/pretender_0.11.0_linux_arm64.tar.gz"
+        sha256 "718e0196f6f5dda103e2a916148c1e3c9158a28fcee00083b69efc27783318fd"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/pretender/releases/download/v0.10.0/pretender_0.10.0_linux_amd64.tar.gz"
-      sha256 "df1fcce94aba1178bf05df0df450ac36c8a74a87b82e8afb0e65141f564b0401"
+      url "https://github.com/charly-vibes/pretender/releases/download/v0.11.0/pretender_0.11.0_linux_amd64.tar.gz"
+      sha256 "48785d1d5a66876e68cb3ed2d325053645471dbb41156e00c36a02e17df8177d"
     end
   end
 
