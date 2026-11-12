@@ -4,30 +4,30 @@
 class Bajan < Formula
   desc "Spec-driven knowledge-graph pipeline CLI"
   homepage "https://github.com/charly-vibes/bajan"
-  version "0.1.0"
+  version "0.3.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/bajan/releases/download/v0.1.0/bajan_0.1.0_darwin_arm64.tar.gz"
-      sha256 "c063d019f1aec3b22919a923a0cadb89bd3fde3a79771e5a132a592303ad527d"
+      url "https://github.com/charly-vibes/bajan/releases/download/v0.3.1/bajan_0.3.1_darwin_arm64.tar.gz"
+      sha256 "21947131bed711673b1bdf56726e4cd980d45225ee66a344866db21fe84344b1"
     end
     on_intel do
-      url "https://github.com/charly-vibes/bajan/releases/download/v0.1.0/bajan_0.1.0_darwin_amd64.tar.gz"
-      sha256 "2261cd1dbbfc938ead4a030d734672fba03a13cf7ee877c4b891924652515c90"
+      url "https://github.com/charly-vibes/bajan/releases/download/v0.3.1/bajan_0.3.1_darwin_amd64.tar.gz"
+      sha256 "9585be6965c44cd8155c00cb27c3151dd07b55d3e8151afce4cd7cd1f6f045de"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/bajan/releases/download/v0.1.0/bajan_0.1.0_linux_arm64.tar.gz"
-        sha256 "ec2e43232f0a0054c1952c1f7b2d777a152601b87bedbd4a49ecf1a7a7c16d23"
+        url "https://github.com/charly-vibes/bajan/releases/download/v0.3.1/bajan_0.3.1_linux_arm64.tar.gz"
+        sha256 "b533a4b0ee5215c3f4fe59e728d4ff47595733cae2936b76b628c0af6c3559eb"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/bajan/releases/download/v0.1.0/bajan_0.1.0_linux_amd64.tar.gz"
-      sha256 "9bb7152a7a767d1385c039aa107d701fbb32f9037588baa2543763fb8646f9d9"
+      url "https://github.com/charly-vibes/bajan/releases/download/v0.3.1/bajan_0.3.1_linux_amd64.tar.gz"
+      sha256 "de7ead8937701fa7b8b51449becf2e163ec7f5e97f5b863d2f88822c96909297"
     end
   end
 
