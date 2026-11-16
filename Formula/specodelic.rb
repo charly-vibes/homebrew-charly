@@ -4,30 +4,30 @@
 class Specodelic < Formula
   desc "Markdown specification format (Intent / Constraints / Model / Properties) and the spk CLI"
   homepage "https://github.com/charly-vibes/specodelic"
-  version "0.13.0"
+  version "0.14.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.13.0/specodelic_0.13.0_darwin_arm64.tar.gz"
-      sha256 "c913fd9d86fe0a1792d576e8a585c13a97389b5c4c7e1fd9a0ed49d333c99814"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.14.0/specodelic_0.14.0_darwin_arm64.tar.gz"
+      sha256 "efc67249ed54687d446f80a8e25a3355f0db04b9f19a415f93631191d605eb7a"
     end
     on_intel do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.13.0/specodelic_0.13.0_darwin_amd64.tar.gz"
-      sha256 "e7a49735ab9022e2d741d83e4e9296d18757ee783c7490e4be3bb7841fcc88b6"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.14.0/specodelic_0.14.0_darwin_amd64.tar.gz"
+      sha256 "57d716336f82e37d7015ec50bdf571babeaca5d57759adf45fa7995b7032e10b"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/specodelic/releases/download/v0.13.0/specodelic_0.13.0_linux_arm64.tar.gz"
-        sha256 "7db99c18cb9a8976e87ff784db4871ae0119828f99ee128733523de5551ffed9"
+        url "https://github.com/charly-vibes/specodelic/releases/download/v0.14.0/specodelic_0.14.0_linux_arm64.tar.gz"
+        sha256 "5c1d87397ed429b3756f0c7a48dce96674d9b310a6d508ed86be31b262c8bafa"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/specodelic/releases/download/v0.13.0/specodelic_0.13.0_linux_amd64.tar.gz"
-      sha256 "66ed931b52537b294ea1dfd553c2c7ede608a12c01c494f0a611eb1b7911d203"
+      url "https://github.com/charly-vibes/specodelic/releases/download/v0.14.0/specodelic_0.14.0_linux_amd64.tar.gz"
+      sha256 "3a66103bacc705048ce78091f05c47faf6038e8a1b7960f3039df288853ab265"
     end
   end
 
