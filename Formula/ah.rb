@@ -4,30 +4,30 @@
 class Ah < Formula
   desc "Behavioral verification CLI for AI development workflows"
   homepage "https://github.com/charly-vibes/espectacular"
-  version "0.12.2"
+  version "0.12.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.2/ah_0.12.2_darwin_arm64.tar.gz"
-      sha256 "e9adea0be6d9f11f618a3ef48852be1754c1f2ed87169ee629a708a8614d0a0f"
+      url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.3/ah_0.12.3_darwin_arm64.tar.gz"
+      sha256 "b6599a70c8825937c7c577225b5d6957c8c3cb42c225d889e5c88016bb80ed10"
     end
     on_intel do
-      url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.2/ah_0.12.2_darwin_amd64.tar.gz"
-      sha256 "fedebbd3adbfc354a9792cfaf99b3ce9f58443b07307db604b62ea17736c554b"
+      url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.3/ah_0.12.3_darwin_amd64.tar.gz"
+      sha256 "e036d1eebf3b733b3130db7cb5300fc1630464461bd4820bd0c8a2f677fe3342"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.2/ah_0.12.2_linux_arm64.tar.gz"
-        sha256 "62220ee7026046869eaa2ff33718eee25d3a9092455358c726b4bc23d4699213"
+        url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.3/ah_0.12.3_linux_arm64.tar.gz"
+        sha256 "954e6a0c95e89920985f95840baf5b02466d1199133353b4a2203787404eeab8"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.2/ah_0.12.2_linux_amd64.tar.gz"
-      sha256 "681f30cd55fd3235e612afe9acd9665dc01a153a449bf1d0229af3760c7ec66d"
+      url "https://github.com/charly-vibes/espectacular/releases/download/v0.12.3/ah_0.12.3_linux_amd64.tar.gz"
+      sha256 "9f516ec0209722472af21a0b15b4c97a58412843a702890cd1766d51cc901d75"
     end
   end
 
