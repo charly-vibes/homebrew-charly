@@ -4,30 +4,30 @@
 class DulceDeLeche < Formula
   desc "Orchestrator for the charly-vibes tool ecosystem"
   homepage "https://github.com/charly-vibes/dulce-de-leche"
-  version "0.10.0"
+  version "0.11.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.10.0/ddl_0.10.0_darwin_arm64.tar.gz"
-      sha256 "029ea89b2829a8a2fe284d1392461cbdac484470e3f55c6384e9ad604e5f74a2"
+      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.11.0/ddl_0.11.0_darwin_arm64.tar.gz"
+      sha256 "2a11bbcaf6ba67e2ccb16666b7e9d222771122b9b817efc8d2073a11136fb936"
     end
     on_intel do
-      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.10.0/ddl_0.10.0_darwin_amd64.tar.gz"
-      sha256 "c809d9c7f0994374219d3838efa06cc52a5954513aa2bc27feeb8ee20367a5ba"
+      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.11.0/ddl_0.11.0_darwin_amd64.tar.gz"
+      sha256 "9d2dae771be2ffcbf056f65784392b3dcd73a294454af7ad8b591be56b99aa46"
     end
   end
 
   on_linux do
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.10.0/ddl_0.10.0_linux_arm64.tar.gz"
-        sha256 "7dd58bbf675afe5abe3cedf0440b6c922fc8bd3c07057551942e068b38d007b4"
+        url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.11.0/ddl_0.11.0_linux_arm64.tar.gz"
+        sha256 "7ea8af5544abca46055fef850d7ed03b10663caba9498524dff086270086df30"
       end
     end
     on_intel do
-      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.10.0/ddl_0.10.0_linux_amd64.tar.gz"
-      sha256 "a63d62eb1543fa35c6f683a21fc4cfed7450d9c207831b4f1c1e5b99806f3680"
+      url "https://github.com/charly-vibes/dulce-de-leche/releases/download/v0.11.0/ddl_0.11.0_linux_amd64.tar.gz"
+      sha256 "7c3e12975d41dd0ba6f5236a3fb93197e94748c718714aeb7c05c1dca15ed513"
     end
   end
 
