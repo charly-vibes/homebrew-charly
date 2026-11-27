@@ -13,6 +13,7 @@ brew tap charly-vibes/charly
 | Name | Kind | Description |
 |------|------|-------------|
 | `wai` | formula | Workflow manager for AI-driven development |
+| `wild` | formula | Scoped dependency-contract checker for Rust/Cargo updates |
 | `fabbro` | formula | Local-first code review annotation tool |
 | `fotos-mcp` | formula | MCP server for the Fotos screenshot tool |
 | `fotos` | cask | AI-powered screenshot capture and analysis app |
@@ -21,6 +22,7 @@ brew tap charly-vibes/charly
 
 ```bash
 # CLI tools (formula)
+brew install wild
 brew install wai
 brew install fabbro
 brew install fotos-mcp
